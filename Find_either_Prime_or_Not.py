@@ -42,5 +42,5 @@ is_valid = True
 for i in range(2, n):
     is_valid = not n % i == 0
 
-print("yes" if is_valid else "no" )
+print("yes, it's a prime" if is_valid else "no, it's not a prime" )
 
